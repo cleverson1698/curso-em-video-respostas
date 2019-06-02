@@ -1,0 +1,10 @@
+#vai vericar os tipos  que sao os dados digitados
+n1 = (input('Digite algo:'))
+print('O tipo primitivo dessa palavra é', (type(n1)))
+print('É um numero?', n1.isnumeric())
+print('Tem espaços?', n1.isspace())
+print('É alfabetico?', n1.isalpha())
+print('É alfanúmerico:', n1.isalnum())
+print('Esta em letras maiusculas?', n1.isupper())
+print('Ésta em letras minusculas?', n1.islower())
+print('Esta capitalizada?', n1.istitle())
